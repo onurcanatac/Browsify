@@ -1,46 +1,47 @@
-# Running Browsify
+# Browsify
 
-## First Method
-1. Extract the Browsify.zip into a suitable location.
-1. Go to the directory 'dist'.
-2. Run the 'main.exe' file.
+## Description
 
-## Second Method
-1. Extract the Browsify.zip into a suitable location.
-2. Find and run 'main.py' from an IDE or type 'python main.py' on the command line in the application directory.
+Browsify is a web browser focused on enhancing bookmark capabilities. It includes all the basic functionalities of a browser along with advanced features for managing bookmarks. The UI is customizable to ensure a user-friendly experience.
 
-# Browsify Folder Structure
+## Features
 
-## build 
-This folder contains the build files.
+-   Basic web browsing functionalities.
+-   Advanced bookmark management.
+-   Customizable user interface.
 
-## controller
-This folder contains ControllerScript.py. This script establishes the communication between the UI and local data storage.
+## Tech Stack
 
-## core
-This folder contains the core functionalities of Browsify, Browsify.py. This script creates the application windows and its components. It bears the main functionalities of Browsify.
+-   **Programming Language**: Python
+-   **GUI Framework**: PyQt5
 
-## db
-This folder is the local data storage. It contains several JSON files to store application data.
+## Installation
 
-## dist
-This folder contains the main.exe file, which should be run to start Browsify.
+To install Browsify, follow these steps:
 
-## styles
-This folder contains Styles.py, which styles the GUI components.
+1. Clone the repository:
 
-## visual
-This folder contains the icons and logos of Browsify.
+    ```bash
+    git clone https://github.com/ilkerozgen/Browsify.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd Browsify
+    ```
+
+3. Install the application using the `setup.py` script:
+
+    ```bash
+    python setup.py install
+    ```
+
+4. Run the application from the command line:
+    ```bash
+    browsify
+    ```
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## main.py
-This file is main script of Browsify. Run this to start the application.
-
-## setup.py
-This file specifies the setup configurations of Browsify.
-
-## test.py
-This file is the test file of Browsify. Run this to start the test application.
-
